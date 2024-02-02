@@ -26,6 +26,1376 @@
     <link rel="stylesheet" href="./assests/responsive.css" />
 </head>
 <body> 
-    
+ <!--!=============== header section starts ===============-->
+ <div id="home" class="header-container">
+    <header
+      class="header section p-relative m-auto d-flex al-center jc-between"
+    >
+      <!--todo====== item one ======-->
+      <div class="toggle-btn pointer d-none">
+        <i class="fa-solid fa-bars menu-bar d-none"></i>
+        <i class="fa-solid fa-xmark cancel-btn d-none"></i>
+      </div>
+      <!--todo====== item two ======-->
+      <div class="searchBar pointer d-flex jc-between al-center">
+        <!--?=== side Bar btn ===-->
+        <div class="sideBar-btn h-100 al-center d-flex">
+          <span class="header-tag txt-cap">explore</span>
+          <div class="angle-down d-flex jc-center al-center">
+            <i class="fa-solid transition-3 fa-angle-down"></i>
+          </div>
+        </div>
+        <!--?=== search Bar ===-->
+        <input placeholder="Search..." type="search" name="searchBar" />
+      </div>
+
+      <!--todo====== item three ======-->
+      <div class="logo pointer">
+        <img
+          src="./assests/images/nasa-logo.svg"
+          alt="This is NASA logo"
+          width="100%"
+        />
+      </div>
+
+      <!--todo====== item four ======-->
+      <nav class="navbar p-relative h-100 d-flex jc-center al-center">
+        <!--?=== menu one ===-->
+        <div
+          class="link-wrapper wrapper-one transition-3 d-flex al-center jc-center h-100 p-relative"
+        >
+          <a href="#" class="menu-item d-flex jc-center al-center txt-cap"
+            >news & events
+            <i class="transition-3 fa-solid fa-angle-down"></i>
+            <!--!======== sub menu ========-->
+            <div
+              class="subMenu transition-3 overflow-h p-absolute d-flex dir-col jc-center al-right"
+            >
+              <!--todo=== subMenu heading ===-->
+              <div class="subMenu-heading">
+                <h2 class="txt-cap d-flex al-center jc-start">
+                  news & events
+                  <i
+                    class="fa-solid fa-arrow-right al-center jc-center d-flex"
+                  ></i>
+                </h2>
+              </div>
+              <!--todo=== subMenu items ===-->
+              <!--?=== item one ===-->
+              <a href="#" class="txt-cap subMenu-item">all NASA news</a>
+              <!--?=== item two ===-->
+              <a href="#" class="txt-cap subMenu-item"
+                >video series on NASA+</a
+              >
+              <!--?=== item three ===-->
+              <a href="#" class="txt-cap subMenu-item">podcasts</a>
+              <!--?=== item four ===-->
+              <a href="#" class="txt-cap subMenu-item">blogs</a>
+              <!--?=== item five ===-->
+              <a href="#" class="txt-cap subMenu-item">newsletters</a>
+              <!--?=== item six ===-->
+              <a href="#" class="txt-cap subMenu-item">social media</a>
+              <!--?=== item seven ===-->
+              <a href="#" class="txt-cap subMenu-item">media resources</a>
+              <!--?=== item eight ===-->
+              <a href="#" class="txt-cap subMenu-item"
+                >upcomong lauches & landings</a
+              >
+              <!--?=== item nine ===-->
+              <a href="#" class="txt-cap subMenu-item">virtual events</a>
+            </div></a
+          >
+        </div>
+
+        <!--?=== menu two ===-->
+        <div
+          class="link-wrapper wrapper-two d-flex al-center jc-center h-100 p-relative"
+        >
+          <a href="#" class="menu-item d-flex jc-center al-center txt-cap"
+            >multimedia
+            <i class="transition-3 fa-solid fa-angle-down"></i>
+            <!--!======== sub menu ========-->
+            <div
+              class="subMenu transition-3 overflow-h p-absolute d-flex dir-col jc-center al-right"
+            >
+              <!--todo=== subMenu heading ===-->
+              <div class="subMenu-heading">
+                <h2 class="txt-cap d-flex al-center jc-start">
+                  multimedia
+                  <i
+                    class="fa-solid fa-arrow-right al-center jc-center d-flex"
+                  ></i>
+                </h2>
+              </div>
+              <!--todo=== subMenu items ===-->
+              <!--?=== item one ===-->
+              <a href="#" class="txt-cap subMenu-item">NASA+</a>
+              <!--?=== item two ===-->
+              <a href="#" class="txt-cap subMenu-item">Images</a>
+              <!--?=== item three ===-->
+              <a href="#" class="txt-cap subMenu-item">NASA TV</a>
+              <!--?=== item four ===-->
+              <a href="#" class="txt-cap subMenu-item"
+                >sounds and Ringtones</a
+              >
+              <!--?=== item five ===-->
+              <a href="#" class="txt-cap subMenu-item">interactives</a>
+              <!--?=== item six ===-->
+              <a href="#" class="txt-cap subMenu-item">NASA Apps</a>
+              <!--?=== item seven ===-->
+              <a href="#" class="txt-cap subMenu-item">podcasts</a>
+              <!--?=== item eight ===-->
+              <a href="#" class="txt-cap subMenu-item">e-Books</a>
+              <!--?=== item nine ===-->
+              <a href="#" class="txt-cap subMenu-item">STEM Multimedia</a>
+            </div></a
+          >
+        </div>
+        <!--?=== menu three ===-->
+        <div class="link-wrapper d-flex h-100 jc-center al-center">
+          <a href="#" class="menu-item txt-cap"
+            >NASA+ <span class="transition-3 live-btn txt-up">live</span></a
+          >
+        </div>
+      </nav>
+      <!--todo====== item five ======-->
+      <div class="search-icon-wrapper d-none">
+        <i class="fa-solid fa-magnifying-glass search-btn"></i>
+      </div>
+      <!--todo====== item six ======-->
+      <div class="sideBar-container p-absolute grid grid-four-cols">
+        <!--!=== col one ===-->
+        <div class="col-one sideBar-links p-relative d-flex jc-start dir-col">
+          <!--?=== item one ===-->
+          <a href="#" class="txt-cap d-flex jc-between al-center"
+            >home
+            <div class="sideBar-link-angle d-flex jc-end">
+              <i class="transition-3 fa-solid fa-angle-down d-none"></i>
+            </div>
+          </a>
+          <!--?=== item two ===-->
+          <a href="#" class="txt-cap d-flex jc-between al-center"
+            >missions
+            <div class="sideBar-link-angle d-flex jc-end">
+              <i class="transition-3 fa-solid fa-angle-down d-none"></i>
+            </div>
+          </a>
+          <!--?=== item three ===-->
+          <a href="#" class="txt-cap d-flex jc-between al-center"
+            >humans in space
+
+            <div class="sideBar-link-angle d-flex jc-end">
+              <i class="transition-3 fa-solid fa-angle-down d-none"></i>
+            </div>
+          </a>
+          <!--?=== item four ===-->
+          <a href="#" class="txt-cap d-flex jc-between al-center"
+            >earth & climate
+
+            <div class="sideBar-link-angle d-flex jc-end">
+              <i class="transition-3 fa-solid fa-angle-down d-none"></i>
+            </div>
+          </a>
+          <!--?=== item five ===-->
+          <a href="#" class="txt-cap d-flex jc-between al-center"
+            >the solar system
+
+            <div class="sideBar-link-angle d-flex jc-end">
+              <i class="transition-3 fa-solid fa-angle-down d-none"></i>
+            </div>
+          </a>
+          <!--?=== item six ===-->
+          <a href="#" class="txt-cap d-flex jc-between al-center"
+            >the universe
+            <div class="sideBar-link-angle d-flex jc-end">
+              <i class="transition-3 fa-solid fa-angle-down d-none"></i>
+            </div>
+          </a>
+          <!--?=== item seven ===-->
+          <a href="#" class="txt-cap d-flex jc-between al-center"
+            >science
+            <div class="sideBar-link-angle d-flex jc-end">
+              <i class="transition-3 fa-solid fa-angle-down d-none"></i>
+            </div>
+          </a>
+          <!--?=== item eight ===-->
+          <a href="#" class="txt-cap d-flex jc-between al-center"
+            >aeronautics
+            <div class="sideBar-link-angle d-flex jc-end">
+              <i class="transition-3 fa-solid fa-angle-down d-none"></i>
+            </div>
+          </a>
+          <!--?=== item nine ===-->
+          <a href="#" class="txt-cap d-flex jc-between al-center"
+            >technology
+            <div class="sideBar-link-angle d-flex jc-end">
+              <i class="transition-3 fa-solid fa-angle-down d-none"></i>
+            </div>
+          </a>
+          <!--?=== item ten ===-->
+          <a href="#" class="txt-cap d-flex jc-between al-center"
+            >learning resources
+
+            <div class="sideBar-link-angle d-flex jc-end">
+              <i class="transition-3 fa-solid fa-angle-down d-none"></i>
+            </div>
+          </a>
+          <!--?=== item eleven ===-->
+          <a href="#" class="txt-cap d-flex jc-between al-center"
+            >about NASA
+            <div class="sideBar-link-angle d-flex jc-end">
+              <i class="transition-3 fa-solid fa-angle-down d-none"></i>
+            </div>
+          </a>
+          <!--?=== item twelve ===-->
+          <a href="#" class="txt-cap d-flex jc-between al-center"
+            >espanol
+            <div class="sideBar-link-angle d-flex jc-end">
+              <i class="transition-3 fa-solid fa-angle-down d-none"></i>
+            </div>
+          </a>
+        </div>
+        <!--!=== col two ===-->
+        <div class="col-tow sideBar-feature d-flex dir-col jc-start al-end">
+          <!--?=== sideBar image ===-->
+          <div class="sideBar-img">
+            <img
+              src="./assests/images/sideBar-1.webp"
+              alt="This is sideBar imgae number 1"
+              width="100%"
+              height="100%"
+            />
+          </div>
+
+          <!--?=== tag ===-->
+          <div class="sideBar-feature-tag txt-up">3 min read</div>
+
+          <!--?=== sideBar Decription ===-->
+          <p class="txt-cap">
+            NASA's IXPE awarded prestigious prize in high-enery astronoy
+          </p>
+
+          <!--?=== sideBar bedge ===-->
+          <div class="sideBar-bedge d-flex jc-start al-center">
+            <div class="bedge-wrapper d-flex jc-center al-center">
+              <i class="fa-solid fa-tag bedge"></i>
+            </div>
+            <span class="txt-up">article</span>
+            <span class="txt-up">3 days ago</span>
+          </div>
+        </div>
+
+        <!--!=== col three ===-->
+        <div class="col-three sideBar-feature d-flex dir-col jc-start al-end">
+          <!--?=== sideBar image ===-->
+          <div class="sideBar-img">
+            <img
+              src="./assests/images/sideBar-2.webp"
+              alt="This is sideBar imgae number 2"
+              width="100%"
+              height="100%"
+            />
+          </div>
+
+          <!--?=== tag ===-->
+          <div class="sideBar-feature-tag txt-up">3 min read</div>
+
+          <!--?=== sideBar Decription ===-->
+          <p class="txt-cap">
+            NASA's IXPE awarded prestigious prize in high-enery astronoy
+          </p>
+
+          <!--?=== sideBar bedge ===-->
+          <div class="sideBar-bedge d-flex jc-start al-center">
+            <div class="bedge-wrapper d-flex jc-center al-center">
+              <i class="fa-solid fa-tag bedge"></i>
+            </div>
+            <span class="txt-up">article</span>
+            <span class="txt-up">3 days ago</span>
+          </div>
+        </div>
+
+        <!--!=== col four ===-->
+        <div class="col-four sideBar-feature d-flex dir-col jc-start al-end">
+          <!--?=== sideBar image ===-->
+          <div class="sideBar-img">
+            <img
+              src="./assests/images/sideBar-3.webp"
+              alt="This is sideBar imgae number 3"
+              width="100%"
+              height="100%"
+            />
+          </div>
+
+          <!--?=== tag ===-->
+          <div class="sideBar-feature-tag txt-up">3 min read</div>
+
+          <!--?=== sideBar Decription ===-->
+          <p class="txt-cap">
+            NASA's IXPE awarded prestigious prize in high-enery astronoy
+          </p>
+
+          <!--?=== sideBar bedge ===-->
+          <div class="sideBar-bedge d-flex jc-start al-center">
+            <div class="bedge-wrapper d-flex jc-center al-center">
+              <i class="fa-solid fa-tag bedge"></i>
+            </div>
+            <span class="txt-up">article</span>
+            <span class="txt-up">3 days ago</span>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+  <!--todo===== main container ======-->
+  <div class="main-container m-auto">
+    <div class="container">
+      <!--!=============== hero section starts ===============-->
+      <section class="section hero-section hero-container p-relative">
+        <!--todo==== hero slide one ====-->
+        <div class="hero-slide-wrapper slide-one">
+          <!--?=== slide img ===-->
+          <div class="layer-img p-absolute">
+            <img
+              src="./assests/images/slide-5.webp"
+              alt="this is slide one img"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <!--?=== slide layer ===-->
+          <div class="layer p-absolute"></div>
+          <!--?====== slide feature btns ======-->
+          <div
+            class="mobile-btn-wrapper dbl-2 d-flex jc-start al-center d-none"
+          >
+            <div
+              class="slide-feature-item slide-mobile-btn d-flex al-center jc-start"
+            >
+              <!--todo=== meida btn one ===-->
+              <div class="slide-media-btn lb-box-shadow">
+                <img
+                  src="./assests/images/slide-1.webp"
+                  alt="This is media button"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+
+              <!--todo=== meida btn two ===-->
+              <div class="slide-media-btn lb-box-shadow">
+                <img
+                  src="./assests/images/slide-2.webp"
+                  alt="This is media button"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+
+              <!--todo=== meida btn three ===-->
+              <div class="slide-media-btn lb-box-shadow">
+                <img
+                  src="./assests/images/slide-3.webp"
+                  alt="This is media button"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+
+              <!--todo=== meida btn four ===-->
+              <div class="slide-media-btn lb-box-shadow">
+                <img
+                  src="./assests/images/slide-1.webp"
+                  alt="This is media button"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!--?=== slide content ===-->
+          <div class="slide-content d-flex dir-col jc-center al-start">
+            <!--*======= slide heading =======-->
+            <h1 class="slide-heading">Delivering Science to the Moon</h1>
+            <p class="slide-description txt-cap">
+              Intuitive machines` first robotic flight to the moon's surface,
+              part of NASA's CLPS (Commercial lunar payload services)
+              initiative, will transport agency science to the Moon.
+            </p>
+            <button class="slide-btn txt-cap">learn more</button>
+          </div>
+          <!--?=== slide features ===-->
+          <div class="slide-features d-flex al-center jc-between">
+            <!--*====== item one ======-->
+            <div class="slide-feature-item p-relative">
+              <span class="txt-up">media event</span>
+              <p class="txt-cap d-flex">
+                Inktuitive machines
+                <i
+                  class="d-flex jc-center al-center fa-solid fa-arrow-right"
+                ></i>
+              </p>
+            </div>
+
+            <!--*====== item two ======-->
+            <div class="slide-feature-item p-relative">
+              <span class="txt-up">future missions</span>
+              <p class="txt-cap d-flex">
+                NASA's VIPER
+                <i
+                  class="d-flex jc-center al-center fa-solid fa-arrow-right"
+                ></i>
+              </p>
+            </div>
+
+            <!--*====== item three ======-->
+            <div class="slide-feature-item p-relative">
+              <span class="txt-up">LUNAR ECONOMY</span>
+              <p class="txt-cap d-flex">
+                What is CLPS?
+                <i
+                  class="d-flex jc-center al-center fa-solid fa-arrow-right"
+                ></i>
+              </p>
+            </div>
+            <!--*====== item four ======-->
+            <div class="slide-feature-item dbl-1 d-flex al-center jc-between">
+              <!--todo=== meida btn one ===-->
+              <div class="slide-media-btn lb-box-shadow">
+                <img
+                  src="./assests/images/slide-1.webp"
+                  alt="This is media button"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+
+              <!--todo=== meida btn two ===-->
+              <div class="slide-media-btn lb-box-shadow">
+                <img
+                  src="./assests/images/slide-2.webp"
+                  alt="This is media button"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+
+              <!--todo=== meida btn three ===-->
+              <div class="slide-media-btn lb-box-shadow">
+                <img
+                  src="./assests/images/slide-3.webp"
+                  alt="This is media button"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+
+              <!--todo=== meida btn four ===-->
+              <div class="slide-media-btn lb-box-shadow">
+                <img
+                  src="./assests/images/slide-1.webp"
+                  alt="This is media button"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--!=============== features section starts ===============-->
+      <section class="section features-section features-container">
+        <!--todo====== featured news heading ======-->
+        <div class="featured-news-heading d-flex jc-between al-center">
+          <h2 class="txt-cap">featured news</h2>
+          <p class="txt-cap d-flex jc-center al-center">
+            more NASA news
+            <i class="d-flex jc-center al-center fa-solid fa-arrow-right"></i>
+          </p>
+        </div>
+
+        <!--todo====== featured news content ======-->
+        <div class="featured-news-content p-relative d-flex al-start">
+          <!--?=== item one ===-->
+          <div
+            class="featured-news-item featured-1 p-relative d-flex dir-col jc-between al-start"
+          >
+            <!--!=== feature bg img ===-->
+            <div class="layer-img p-absolute">
+              <img
+                src="./assests/images/feature-2.webp"
+                alt="this is slide one img"
+                width="100%"
+                height="100%"
+              />
+            </div>
+            <!--!=== img layer ===-->
+            <div class="layer p-absolute"></div>
+            <!--!=== featured news tag ===-->
+            <div class="featured-news-tag txt-up d-flex jc-start al-center">
+              <i class="fa-solid d-flex jc-center al-center fa-newspaper"></i>
+              news release
+            </div>
+
+            <!--!=== item content ===-->
+            <div class="featured-item-content">
+              <span class="bedge txt-up">5 min read</span>
+              <p>
+                NASA Sets Coverage for Northrop Grumman Cargo Space Station
+                Mission
+              </p>
+            </div>
+          </div>
+          <!--?=== item two ===-->
+          <div
+            class="featured-news-item featured-2 p-relative d-flex dir-col jc-between al-start"
+          >
+            <!--!=== feature bg img ===-->
+            <div class="layer-img p-absolute">
+              <img
+                src="./assests/images/feature-3.webp"
+                alt="this is slide one img"
+                width="100%"
+                height="100%"
+              />
+            </div>
+            <!--!=== img layer ===-->
+            <div class="layer p-absolute"></div>
+            <!--!=== featured news tag ===-->
+            <div class="featured-news-tag txt-up d-flex jc-start al-center">
+              <i class="fa-solid d-flex jc-center al-center fa-newspaper"></i>
+              news release
+            </div>
+
+            <!--!=== item content ===-->
+            <div class="featured-item-content">
+              <span class="bedge txt-up">5 min read</span>
+              <p>
+                NASA Sets Coverage for Northrop Grumman Cargo Space Station
+                Mission
+              </p>
+            </div>
+          </div>
+          <!--?=== item three inside two part ===-->
+          <div
+            class="featured-news-item featured-3 p-relative d-flex dir-col jc-center al-center"
+          >
+            <!--todo=== subItem one ===-->
+            <div
+              class="sub-featured sub-1 p-relative d-flex dir-col jc-between al-start"
+            >
+              <!--!=== feature bg img ===-->
+              <div class="layer-img p-absolute">
+                <img
+                  src="./assests/images/feature-4.webp"
+                  alt="this is slide one img"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <!--!=== img layer ===-->
+              <div class="layer p-absolute"></div>
+              <!--!=== featured news tag ===-->
+              <div class="featured-news-tag txt-up d-flex jc-start al-center">
+                <i
+                  class="fa-solid d-flex jc-center al-center fa-newspaper"
+                ></i>
+                news release
+              </div>
+
+              <!--!=== item content ===-->
+              <div class="featured-item-content">
+                <span class="bedge txt-up">5 min read</span>
+                <p>
+                  NASA Sets Coverage for Northrop Grumman Cargo Space Station
+                  Mission
+                </p>
+              </div>
+            </div>
+
+            <!--todo=== subItem two ===-->
+            <div
+              class="sub-featured sub-2 p-relative d-flex dir-col jc-between al-start"
+            >
+              <!--!=== feature bg img ===-->
+              <div class="layer-img p-absolute">
+                <img
+                  src="./assests/images/feature-5.webp"
+                  alt="this is slide one img"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <!--!=== img layer ===-->
+              <div class="layer p-absolute"></div>
+              <!--!=== featured news tag ===-->
+              <div class="featured-news-tag txt-up d-flex jc-start al-center">
+                <i
+                  class="fa-solid d-flex jc-center al-center fa-newspaper"
+                ></i>
+                news release
+              </div>
+
+              <!--!=== item content ===-->
+              <div class="featured-item-content">
+                <span class="bedge txt-up">5 min read</span>
+                <p>
+                  NASA Sets Coverage for Northrop Grumman Cargo Space Station
+                  Mission
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--todo====== featured news tags ======-->
+        <div class="featured-news-tags grid grid-four-cols">
+          <!--?=== tag item one ===-->
+          <div class="featured-tag-item tag-one d-flex jc-center al-center">
+            <!--*=== tag img ===-->
+            <div class="featured-tag-img lb-box-shadow">
+              <img
+                src="./assests/images/feature-5.webp"
+                alt="this is featured image number 5"
+                width="100%"
+                height="100%"
+              />
+            </div>
+            <!--*=== tag contens ===-->
+            <div
+              class="featured-tag-content d-flex dir-col jc-center al-start"
+            >
+              <span class="txt-up bedge">3 min read</span>
+              <p class="txt-cap">
+                NASA's aerospace safety advisory panel releases 2023 annual
+                report
+              </p>
+              <div class="featured-news-tag txt-up d-flex jc-start al-center">
+                <i
+                  class="fa-solid d-flex jc-center al-center fa-newspaper"
+                ></i>
+                news release
+              </div>
+            </div>
+          </div>
+
+          <!--?=== tag item two ===-->
+          <div class="featured-tag-item tag-one d-flex jc-center al-center">
+            <!--*=== tag img ===-->
+            <div class="featured-tag-img lb-box-shadow">
+              <img
+                src="./assests/images/feature-6.webp"
+                alt="this is featured image number 5"
+                width="100%"
+                height="100%"
+              />
+            </div>
+            <!--*=== tag contens ===-->
+            <div
+              class="featured-tag-content d-flex dir-col jc-center al-start"
+            >
+              <span class="txt-up bedge">3 min read</span>
+              <p class="txt-cap">
+                NASA's aerospace safety advisory panel releases 2023 annual
+                report
+              </p>
+              <div class="featured-news-tag txt-up d-flex jc-start al-center">
+                <i
+                  class="fa-solid d-flex jc-center al-center fa-newspaper"
+                ></i>
+                news release
+              </div>
+            </div>
+          </div>
+
+          <!--?=== tag item third ===-->
+          <div class="featured-tag-item tag-one d-flex jc-center al-center">
+            <!--*=== tag img ===-->
+            <div class="featured-tag-img lb-box-shadow">
+              <img
+                src="./assests/images/feature-7.webp"
+                alt="this is featured image number 5"
+                width="100%"
+                height="100%"
+              />
+            </div>
+            <!--*=== tag contens ===-->
+            <div
+              class="featured-tag-content d-flex dir-col jc-center al-start"
+            >
+              <span class="txt-up bedge">3 min read</span>
+              <p class="txt-cap">
+                NASA's aerospace safety advisory panel releases 2023 annual
+                report
+              </p>
+              <div class="featured-news-tag txt-up d-flex jc-start al-center">
+                <i
+                  class="fa-solid d-flex jc-center al-center fa-newspaper"
+                ></i>
+                news release
+              </div>
+            </div>
+          </div>
+
+          <!--?=== tag item four ===-->
+          <div class="featured-tag-item tag-one d-flex jc-center al-center">
+            <!--*=== tag img ===-->
+            <div class="featured-tag-img lb-box-shadow">
+              <img
+                src="./assests/images/feature-8.webp"
+                alt="this is featured image number 5"
+                width="100%"
+                height="100%"
+              />
+            </div>
+            <!--*=== tag contens ===-->
+            <div
+              class="featured-tag-content d-flex dir-col jc-center al-start"
+            >
+              <span class="txt-up bedge">3 min read</span>
+              <p class="txt-cap">
+                NASA's aerospace safety advisory panel releases 2023 annual
+                report
+              </p>
+              <div class="featured-news-tag txt-up d-flex jc-start al-center">
+                <i
+                  class="fa-solid d-flex jc-center al-center fa-newspaper"
+                ></i>
+                news release
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--!=============== summer internship section starts ===============-->
+      <section
+        class="section internship-section internship-container p-relative"
+      >
+        <!--?=== feature bg img ===-->
+        <div class="layer-img p-absolute">
+          <img
+            src="./assests/images/internship-bg.webp"
+            alt="this is slide one img"
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <!--?=== img layer ===-->
+        <div class="layer p-absolute"></div>
+        <!--?=== internship content ===-->
+        <div class="internship-content d-flex dir-col al-start jc-center">
+          <h2 class="internship-heading txt-cap">summer internships</h2>
+          <p class="internship-description">
+            Our Student Airborne Reasearch Program is an eight-week summer
+            unternship for senior undergraduate students in the United States.
+            Interns assist with NASA's Airborne Science program, which takes
+            flight to study the Earth. The application deadline is January 31.
+          </p>
+          <p class="internship-btn d-flex jc-center al-center txt-cap">
+            Application details
+            <i class="d-flex jc-center al-center fa-solid fa-arrow-right"></i>
+          </p>
+        </div>
+      </section>
+      <!--!=============== imgae of the day section starts ===============-->
+      <section
+        class="section day-section day-container grid grid-wide-two-cols"
+      >
+        <!--todo==== day content ====-->
+        <div class="day-content d-flex dir-col al-start jc-start">
+          <!--?=== day bedge ===-->
+          <span class="bedge txt-up day-dbl-1">today</span>
+          <!--?=== day heading ===-->
+          <h2 class="txt-cap day-dbl-1">image of the day</h2>
+          <!--?=== sub heading ===-->
+          <p class="day-sub-heading">Day of Remembrance</p>
+          <!--?=== day description ===-->
+          <p class="day-description">
+            From left to right, NASA Administrator Bill Nelson, NASA Deputy
+            Administrator Pam Melroy, and Deputy Chief of Mission for the
+            Embassy of Israel Eliav Benjamin, place wreaths at the Space
+            Shuttle Columbia Memorial during a ceremony that was part of
+            NASA's DAy of Remembrance, Thursday, Jan,25,2024,at Arlington
+            National Cemetery in Arlingron, Va. The wreaths were laid in emory
+            of those men and women who lost their lives in the quest for space
+            exploration.
+          </p>
+          <!--?=== day bedge two ===-->
+          <p class="day-bedge d-flex jc-start al-center">
+            Browse Image Archive
+            <i class="d-flex jc-center al-center fa-solid fa-arrow-right"></i>
+          </p>
+        </div>
+        <!--todo==== day image =====-->
+
+        <div class="day-img">
+          <!--?=== day bedge ===-->
+          <span class="bedge txt-up day-dbl-2 d-none">today</span>
+          <!--?=== day heading ===-->
+          <h2 class="txt-cap day-dbl-2 d-none">image of the day</h2>
+          <img
+            src="./assests/images/img-of-the-day.webp"
+            alt="this is image of the day"
+            width="100%"
+            height="100%"
+          />
+        </div>
+      </section>
+      <!--!=============== Europa Special section starts ===============-->
+      <section
+        class="section special-section special-container grid grid-wide-two-cols"
+      >
+        <!--todo==== special content ====-->
+        <div class="special-content d-flex dir-col al-start jc-start">
+          <!--?=== special bedge ===-->
+          <span class="bedge txt-up">featured video</span>
+          <!--?=== special heading ===-->
+          <h2 class="txt-cap">what makes europa special?</h2>
+
+          <!--?=== special description ===-->
+          <p class="special-description">
+            Explore icy moons, like Jupiter’s moon Europa, with Olympic figure
+            skaters Kaitlin Hawayek and Jean-Luc Baker. Trina Ray answers
+            their questions about why Europa’s surface is one big ice sheet,
+            and what it might be like to skate there.
+          </p>
+          <!--?=== special bedge two ===-->
+          <p class="special-bedge d-flex jc-start al-center">
+            Learn More
+            <i class="d-flex jc-center al-center fa-solid fa-arrow-right"></i>
+          </p>
+        </div>
+        <!--todo==== day image =====-->
+
+        <div class="special-video">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/WQR_iNjEjlw?si=F2CcUMdsmoNPxgAy"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <!--!=============== latest news section starts ===============-->
+      <section class="section features-section features-container">
+        <!--todo====== featured news heading ======-->
+        <div class="featured-news-heading d-flex jc-between al-center">
+          <h2 class="txt-cap">latest news</h2>
+          <p class="txt-cap d-flex jc-center al-center">
+            more NASA news Releases
+            <i class="d-flex jc-center al-center fa-solid fa-arrow-right"></i>
+          </p>
+        </div>
+
+        <!--todo====== featured news content ======-->
+        <div class="featured-news-content p-relative d-flex al-start">
+          <!--?=== item one ===-->
+          <div
+            class="featured-news-item featured-1 p-relative d-flex dir-col jc-between al-start"
+          >
+            <!--!=== feature bg img ===-->
+            <div class="layer-img p-absolute">
+              <img
+                src="./assests/images/news-new-1.webp"
+                alt="this is slide one img"
+                width="100%"
+                height="100%"
+              />
+            </div>
+            <!--!=== img layer ===-->
+            <div class="layer p-absolute"></div>
+            <!--!=== featured news tag ===-->
+            <div class="featured-news-tag txt-up d-flex jc-start al-center">
+              <i class="fa-solid d-flex jc-center al-center fa-newspaper"></i>
+              news release
+            </div>
+
+            <!--!=== item content ===-->
+            <div class="featured-item-content">
+              <span class="bedge txt-up">5 min read</span>
+              <p>
+                NASA Sets Coverage for Northrop Grumman Cargo Space Station
+                Mission
+              </p>
+            </div>
+          </div>
+          <!--?=== item two ===-->
+          <div
+            class="featured-news-item featured-2 p-relative d-flex dir-col jc-between al-start"
+          >
+            <!--!=== feature bg img ===-->
+            <div class="layer-img p-absolute">
+              <img
+                src="./assests/images/news-2.webp"
+                alt="this is slide one img"
+                width="100%"
+                height="100%"
+              />
+            </div>
+            <!--!=== img layer ===-->
+            <div class="layer p-absolute"></div>
+            <!--!=== featured news tag ===-->
+            <div class="featured-news-tag txt-up d-flex jc-start al-center">
+              <i class="fa-solid d-flex jc-center al-center fa-newspaper"></i>
+              news release
+            </div>
+
+            <!--!=== item content ===-->
+            <div class="featured-item-content">
+              <span class="bedge txt-up">5 min read</span>
+              <p>
+                NASA Sets Coverage for Northrop Grumman Cargo Space Station
+                Mission
+              </p>
+            </div>
+          </div>
+          <!--?=== item three inside two part ===-->
+          <div
+            class="featured-news-item featured-3 p-relative d-flex dir-col jc-center al-center"
+          >
+            <!--todo=== subItem one ===-->
+            <div
+              class="sub-featured sub-1 p-relative d-flex dir-col jc-between al-start"
+            >
+              <!--!=== feature bg img ===-->
+              <div class="layer-img p-absolute">
+                <img
+                  src="./assests/images/news-new-3.webp"
+                  alt="this is slide one img"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <!--!=== img layer ===-->
+              <div class="layer p-absolute"></div>
+              <!--!=== featured news tag ===-->
+              <div class="featured-news-tag txt-up d-flex jc-start al-center">
+                <i
+                  class="fa-solid d-flex jc-center al-center fa-newspaper"
+                ></i>
+                news release
+              </div>
+
+              <!--!=== item content ===-->
+              <div class="featured-item-content">
+                <span class="bedge txt-up">5 min read</span>
+                <p>
+                  NASA Sets Coverage for Northrop Grumman Cargo Space Station
+                  Mission
+                </p>
+              </div>
+            </div>
+
+            <!--todo=== subItem two ===-->
+            <div
+              class="sub-featured sub-2 p-relative d-flex dir-col jc-between al-start"
+            >
+              <!--!=== feature bg img ===-->
+              <div class="layer-img p-absolute">
+                <img
+                  src="./assests/images/news-4.webp"
+                  alt="this is slide one img"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <!--!=== img layer ===-->
+              <div class="layer p-absolute"></div>
+              <!--!=== featured news tag ===-->
+              <div class="featured-news-tag txt-up d-flex jc-start al-center">
+                <i
+                  class="fa-solid d-flex jc-center al-center fa-newspaper"
+                ></i>
+                news release
+              </div>
+
+              <!--!=== item content ===-->
+              <div class="featured-item-content">
+                <span class="bedge txt-up">5 min read</span>
+                <p>
+                  NASA Sets Coverage for Northrop Grumman Cargo Space Station
+                  Mission
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--todo====== featured news tags ======-->
+        <div class="featured-news-tags grid grid-four-cols">
+          <!--?=== tag item one ===-->
+          <div class="featured-tag-item tag-one d-flex jc-center al-center">
+            <!--*=== tag img ===-->
+            <div class="featured-tag-img lb-box-shadow">
+              <img
+                src="./assests/images/news-5.jpg"
+                alt="this is featured image number 5"
+                width="100%"
+                height="100%"
+              />
+            </div>
+            <!--*=== tag contens ===-->
+            <div
+              class="featured-tag-content d-flex dir-col jc-center al-start"
+            >
+              <span class="txt-up bedge">3 min read</span>
+              <p class="txt-cap">
+                NASA's aerospace safety advisory panel releases 2023 annual
+                report
+              </p>
+              <div class="featured-news-tag txt-up d-flex jc-start al-center">
+                <i
+                  class="fa-solid d-flex jc-center al-center fa-newspaper"
+                ></i>
+                news release
+              </div>
+            </div>
+          </div>
+
+          <!--?=== tag item two ===-->
+          <div class="featured-tag-item tag-one d-flex jc-center al-center">
+            <!--*=== tag img ===-->
+            <div class="featured-tag-img lb-box-shadow">
+              <img
+                src="./assests/images/news-6.webp"
+                alt="this is featured image number 5"
+                width="100%"
+                height="100%"
+              />
+            </div>
+            <!--*=== tag contens ===-->
+            <div
+              class="featured-tag-content d-flex dir-col jc-center al-start"
+            >
+              <span class="txt-up bedge">3 min read</span>
+              <p class="txt-cap">
+                NASA's aerospace safety advisory panel releases 2023 annual
+                report
+              </p>
+              <div class="featured-news-tag txt-up d-flex jc-start al-center">
+                <i
+                  class="fa-solid d-flex jc-center al-center fa-newspaper"
+                ></i>
+                news release
+              </div>
+            </div>
+          </div>
+
+          <!--?=== tag item third ===-->
+          <div class="featured-tag-item tag-one d-flex jc-center al-center">
+            <!--*=== tag img ===-->
+            <div class="featured-tag-img lb-box-shadow">
+              <img
+                src="./assests/images/news-7.webp"
+                alt="this is featured image number 5"
+                width="100%"
+                height="100%"
+              />
+            </div>
+            <!--*=== tag contens ===-->
+            <div
+              class="featured-tag-content d-flex dir-col jc-center al-start"
+            >
+              <span class="txt-up bedge">3 min read</span>
+              <p class="txt-cap">
+                NASA's aerospace safety advisory panel releases 2023 annual
+                report
+              </p>
+              <div class="featured-news-tag txt-up d-flex jc-start al-center">
+                <i
+                  class="fa-solid d-flex jc-center al-center fa-newspaper"
+                ></i>
+                news release
+              </div>
+            </div>
+          </div>
+
+          <!--?=== tag item four ===-->
+          <div class="featured-tag-item tag-one d-flex jc-center al-center">
+            <!--*=== tag img ===-->
+            <div class="featured-tag-img lb-box-shadow">
+              <img
+                src="./assests/images/news-1.webp"
+                alt="this is featured image number 5"
+                width="100%"
+                height="100%"
+              />
+            </div>
+            <!--*=== tag contens ===-->
+            <div
+              class="featured-tag-content d-flex dir-col jc-center al-start"
+            >
+              <span class="txt-up bedge">3 min read</span>
+              <p class="txt-cap">
+                NASA's aerospace safety advisory panel releases 2023 annual
+                report
+              </p>
+              <div class="featured-news-tag txt-up d-flex jc-start al-center">
+                <i
+                  class="fa-solid d-flex jc-center al-center fa-newspaper"
+                ></i>
+                news release
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--!=============== explore section starts ===============-->
+      <section class="section explore-section explore-container p-relative">
+        <!--?=== feature bg img ===-->
+        <div class="layer-img p-absolute">
+          <img
+            src="./assests/images/explore-bg.webp"
+            alt="this is slide one img"
+            width="100%"
+            height="100%"
+          />
+        </div>
+
+        <!--?=== explore content ===-->
+        <div class="explore-content d-flex dir-col al-start jc-center">
+          <h2 class="explore-heading txt-cap">
+            Explore the Universe from your Inbox
+          </h2>
+          <p class="explore-description">
+            Stay up-to-date on the latest news from NASA–from Earth to the
+            Moon, the Solar System and beyond.
+          </p>
+          <p class="explore-link">
+            We will never share your email address.
+            <a href="#">Privacy Policy</a>
+          </p>
+          <button class="explore-btn d-flex jc-center al-center txt-cap">
+            Sign Up
+            <i class="d-flex jc-center al-center fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </section>
+      <!--!=============== discover section starts ===============-->
+      <section class="section discover-section discover-container">
+        <div class="discover-heading dir-col d-flex al.start">
+          <span class="bedge txt-up">keep exploring</span>
+          <h2 class="discover-heading txt-cap">
+            discover more topics from NASA
+          </h2>
+        </div>
+        <div class="discover-content grid grid-four-cols">
+          <!--todo=== item one ===-->
+          <div class="discover-item d-flex p-relative">
+            <!--?=== feature bg img ===-->
+            <div class="layer-img p-absolute">
+              <img
+                src="./assests/images/explore-1.webp"
+                alt="this is slide one img"
+                width="100%"
+                height="100%"
+              />
+            </div>
+            <!--?=== img layer ===-->
+            <div class="layer p-absolute"></div>
+            <!--?=== discover heading ===-->
+            <p class="discover-sub-heading txt-cap d-flex jc-start al-center">
+              missions
+              <i
+                class="d-flex jc-center al-center fa-solid fa-arrow-right"
+              ></i>
+            </p>
+          </div>
+
+          <!--todo=== item two ===-->
+          <div class="discover-item d-flex p-relative">
+            <!--?=== feature bg img ===-->
+            <div class="layer-img p-absolute">
+              <img
+                src="./assests/images/explore-2.webp"
+                alt="this is slide one img"
+                width="100%"
+                height="100%"
+              />
+            </div>
+            <!--?=== img layer ===-->
+            <div class="layer p-absolute"></div>
+            <!--?=== discover heading ===-->
+            <p class="discover-sub-heading txt-cap d-flex jc-start al-center">
+              humans in space
+              <i
+                class="d-flex jc-center al-center fa-solid fa-arrow-right"
+              ></i>
+            </p>
+          </div>
+
+          <!--todo=== item three ===-->
+          <div class="discover-item d-flex p-relative">
+            <!--?=== feature bg img ===-->
+            <div class="layer-img p-absolute">
+              <img
+                src="./assests/images/explore-3.webp"
+                alt="this is slide one img"
+                width="100%"
+                height="100%"
+              />
+            </div>
+            <!--?=== img layer ===-->
+            <div class="layer p-absolute"></div>
+            <!--?=== discover heading ===-->
+            <p class="discover-sub-heading txt-cap d-flex jc-start al-center">
+              NASA history
+              <i
+                class="d-flex jc-center al-center fa-solid fa-arrow-right"
+              ></i>
+            </p>
+          </div>
+
+          <!--todo=== item four===-->
+          <div class="discover-item d-flex p-relative">
+            <!--?=== feature bg img ===-->
+            <div class="layer-img p-absolute">
+              <img
+                src="./assests/images/explore-4.jpg"
+                alt="this is slide one img"
+                width="100%"
+                height="100%"
+              />
+            </div>
+            <!--?=== img layer ===-->
+            <div class="layer p-absolute"></div>
+            <!--?=== discover heading ===-->
+            <p class="discover-sub-heading txt-cap d-flex jc-start al-center">
+              value of NASA
+              <i
+                class="d-flex jc-center al-center fa-solid fa-arrow-right"
+              ></i>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--!=============== footer section starts ===============-->
+      <footer class="footer section footer-section footer-container">
+        <div class="footer-logo d-flex jc-start">
+          <img src="./assests/images/nasa-logo.svg" alt="" />
+        </div>
+        <div class="footer-content d-flex">
+          <!--todo==== footer col one ====-->
+          <div class="footer-col-one d-flex dir-col jc-start">
+            <h2 class="footer-heading">
+              The National Aeronautics and Space Administration
+            </h2>
+
+            <p class="footer-description">
+              NASA explores the unknown in air and space, innovates for the
+              benefit of humanity, and inspires the world through discovery.
+            </p>
+
+            <p class="footer-mission">About NASA's Mission</p>
+            <p class="footer-button txt-cap d-flex jc-start al-center">
+              Sign in
+              <i
+                class="d-flex jc-center al-center fa-solid fa-arrow-right"
+              ></i>
+            </p>
+          </div>
+          <!--todo==== footer col two ====-->
+          <div class="footer-col-two grid grid-three-cols">
+            <!--?=== menu one ===-->
+            <div class="footer-menu">
+              <ul class="txt-cap">
+                <li>home</li>
+                <li>news & events</li>
+                <li>multimedia</li>
+                <li>NASA+ <span class="live-btn txt-up">live</span></li>
+                <li>missions</li>
+              </ul>
+            </div>
+            <!--?=== menu two ===-->
+            <div class="footer-menu">
+              <ul class="txt-cap">
+                <li>humans in space</li>
+                <li>Earth & climate</li>
+                <li>The Solar System</li>
+                <li>the universe</li>
+                <li>science</li>
+              </ul>
+            </div>
+            <!--?=== menu three ===-->
+            <div class="footer-menu">
+              <ul class="txt-cap">
+                <li>aeronautics</li>
+                <li>technology</li>
+                <li>learning resources</li>
+                <li>about NASA</li>
+                <li>NASA en espanol</li>
+              </ul>
+            </div>
+          </div>
+          <!--todo==== footer col three ====-->
+          <div
+            class="footer-col-three footer-social-links d-flex dir-col jc-start"
+          >
+            <!--?=== social link heading ===-->
+            <p class="footer-links-heading">Follow NASA</p>
+            <!--?=== social links icons ===-->
+            <div class="footer-links d-flex">
+              <i
+                class="d-flex jc-center al-center fa-brands fa-facebook-f"
+              ></i>
+              <i
+                class="d-flex jc-center al-center fa-brands fa-instagram"
+              ></i>
+              <i
+                class="d-flex jc-center al-center fa-brands fa-x-twitter"
+              ></i>
+              <i class="d-flex jc-center al-center fa-brands fa-youtube"></i>
+            </div>
+            <!--?=== social description ===-->
+            <p class="social-description">More NASA Social Accounts</p>
+            <p class="social-sletters">NASA Newsletters</p>
+          </div>
+          <!--todo==== footer col four ====-->
+          <div class="footer-col-four footer-list">
+            <ul class="txt-cap">
+              <li>sitemap</li>
+              <li>for media</li>
+              <li>pricacy policy</li>
+              <li>FQIA</li>
+              <li>no FEAR act</li>
+              <li>office of the IG</li>
+              <li>budget & annual reports</li>
+              <li>agency financial reports</li>
+              <li>contact NASA</li>
+              <li>accessibility</li>
+            </ul>
+          </div>
+          <!--todo==== footer col five ====-->
+          <div class="footer-col-five">
+            <ul class="footer-last-list d-flex">
+              <li class="d-flex">
+                <div class="last-list-property txt-cap">
+                  page last updated:
+                </div>
+                <div class="last-list-value txt-cap">Jan 25, 2024</div>
+              </li>
+              <li class="d-flex">
+                <div class="last-list-property txt-cap">
+                  responsible NASA official:
+                </div>
+                <div class="last-list-value txt-cap">abigail bowman</div>
+              </li>
+              <li class="d-flex">
+                <div class="last-list-property txt-cap">page editor:</div>
+                <div class="last-list-value txt-cap">dacia massongill</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="drop-up">
+          <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="./assests/app.js"></script>
+ 
 </body>
 </html>
